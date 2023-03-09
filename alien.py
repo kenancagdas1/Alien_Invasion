@@ -6,8 +6,7 @@ class Alien(Sprite):
         super().__init__()
         self.screen=ai_game.screen
         self.settings=ai_game.settings
-        self.image=pygame.image.load('C:/Users/idea/Desktop/ehmatthes-pcc_2e-078318e/chapter_13/creating_first_alien/im'
-                                     'ages/alien.bmp')
+        self.image=pygame.image.load('ship.bmp')
         self.rect=self.image.get_rect()
         self.rect.x=self.rect.width
         self.rect.y=self.rect.height
